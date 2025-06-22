@@ -1,2 +1,2 @@
 # mobile-store-system
-Developed a dynamic web app for product management, simulating real-world inventory systems. Features include product creation, updates, deletion, real-time search, local storage, input validation, total price calculations with tax/discount, and interactive UI feedback.
+Developed a dynamic web application for managing products, designed to simulate real-world inventory and product tracking systems. The system allows users to create, update, delete, and search for products with real-time updates stored in browser local storage. The application also includes features like input validation, total price calculation (including taxes and discounts), dynamic product count handling, and UI feedback to enhance user interaction.
