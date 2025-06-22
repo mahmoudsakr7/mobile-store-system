@@ -1,0 +1,109 @@
+* {
+    font-family: cairo;
+    color: white;
+    text-transform: capitalize;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1F1F1F;
+    text-align: center;
+}
+
+input {
+    background-color: #181818;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: #d6d6d6 solid 1px;
+    outline: #d6d6d6 solid 1px;
+    font-weight: bold;
+}
+
+input::placeholder {
+    font-weight: normal;
+}
+
+button {
+    background-color: #3600c9;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+input:focus {
+    background-color: #0a0a0a;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #230083;
+    transform: scale(1.05);
+    transition: 0.5s;
+    letter-spacing: 2px ;
+}
+
+.project {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.project .input {
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    width: 100%;
+
+}
+
+.project .input .price-section {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.project .input .price-section input {
+    width: 20%;
+}
+
+.project .input .price-section span {
+    background-color: #ff0000;
+    padding: 10px;
+    border: #d6d6d6 1px solid;
+    outline: #d6d6d6 1px solid;
+    border-radius: 10px;
+}
+
+.project .input .search-btn {
+    display: flex;
+    flex: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%
+}
+
+.project .input .search-btn button {
+    width: 50%;
+}
+
+.project .data {
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    width: 100%;
+}
+
+.project .data table tr th {
+    border-bottom: 1px solid #d6d6d6;
+}
